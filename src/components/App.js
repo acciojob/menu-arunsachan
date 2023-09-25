@@ -91,9 +91,9 @@ return(
 
       <div className="categories">
       <button className="btn" onClick={()=>setFoodItems(foodData)}>All</button>
-      <button className="btn" id="filter-btn-3" onClick={()=>getFoodItem("breakfast")}>Breakfast</button>
-      <button className="btn" id="filter-btn-2" onClick={()=>getFoodItem("lunch")}>Lunch</button>
-      <button className="btn" id="filter-btn-1" onClick={()=>getFoodItem("shakes")}>Shakes</button>
+      <button className="btn" id="filter-btn-3" data-test-id="menu-item-breakfast" onClick={()=>getFoodItem("breakfast")}>Breakfast</button>
+      <button className="btn" id="filter-btn-2" data-test-id="menu-item-lunch" onClick={()=>getFoodItem("lunch")}>Lunch</button>
+      <button className="btn" id="filter-btn-1" data-test-id="menu-item-shakes" onClick={()=>getFoodItem("shakes")}>Shakes</button>
       </div>
      
      <div className="food-card">
