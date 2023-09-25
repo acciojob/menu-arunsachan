@@ -86,14 +86,14 @@ function getFoodItem(category){
 
 return(
 
-    <div>
+    <div id="main">
       <h1>Our Menu</h1>
 
       <div className="categories">
       <button className="btn" onClick={()=>setFoodItems(foodData)}>All</button>
-      <button className="btn" onClick={()=>getFoodItem("breakfast")}>Breakfast</button>
-      <button className="btn" onClick={()=>getFoodItem("lunch")}>Lunch</button>
-      <button className="btn" onClick={()=>getFoodItem("shakes")}>Shakes</button>
+      <button className="btn" id="filter-btn-3" onClick={()=>getFoodItem("breakfast")}>Breakfast</button>
+      <button className="btn" id="filter-btn-2" onClick={()=>getFoodItem("lunch")}>Lunch</button>
+      <button className="btn" id="filter-btn-1" onClick={()=>getFoodItem("shakes")}>Shakes</button>
       </div>
      
      <div className="food-card">
