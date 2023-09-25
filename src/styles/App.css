@@ -5,8 +5,19 @@ h1 {
     
 
 button{
-    color: #27aedb;
+    color: black;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.food-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.food-card-item{
+    background-color: chocolate;
+    border: 1px solid greenyellow;
 }
